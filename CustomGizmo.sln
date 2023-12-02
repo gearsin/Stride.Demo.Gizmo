@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomGizmo.Windows", "CustomGizmo.Windows\CustomGizmo.Windows.csproj", "{D617059F-BFD0-436B-8329-015C3C575BE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomGizmo", "CustomGizmo\CustomGizmo.csproj", "{5892B882-32AD-41A7-9404-5211D622CBFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamo", "Dynamo\Dynamo.csproj", "{99D88CEE-0F5E-4DCD-86FA-460609DD9F3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D617059F-BFD0-436B-8329-015C3C575BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D617059F-BFD0-436B-8329-015C3C575BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D617059F-BFD0-436B-8329-015C3C575BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D617059F-BFD0-436B-8329-015C3C575BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5892B882-32AD-41A7-9404-5211D622CBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5892B882-32AD-41A7-9404-5211D622CBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5892B882-32AD-41A7-9404-5211D622CBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5892B882-32AD-41A7-9404-5211D622CBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D88CEE-0F5E-4DCD-86FA-460609DD9F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D88CEE-0F5E-4DCD-86FA-460609DD9F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D88CEE-0F5E-4DCD-86FA-460609DD9F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D88CEE-0F5E-4DCD-86FA-460609DD9F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

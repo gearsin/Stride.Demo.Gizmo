@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0-windows;net6.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stride.Engine" Version="4.1.0.1948" PrivateAssets="contentfiles;analyzers" />
+
+    <PackageReference Include="Stride.Video" Version="4.1.0.1948" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.Physics" Version="4.1.0.1948" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.Navigation" Version="4.1.0.1948" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.Particles" Version="4.1.0.1948" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.UI" Version="4.1.0.1948" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.Core" Version="4.1.0.1948" PrivateAssets="contentfiles;analyzers" />
+
+    <PackageReference Include="Stride.Core.Assets.CompilerApp" Version="4.1.0.1948" PrivateAssets="contentfiles;analyzers" IncludeAssets="build" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0-windows'">
+    <PackageReference Include="Stride.GameStudio">
+      <Version>4.1.0.1948</Version>
+    </PackageReference>
+  </ItemGroup>
+</Project>
